@@ -8,5 +8,5 @@ clean:
 jar:
 	jar cfm build/jar/Welcome.jar Manifest -C build/classes .
 
-run:
+run: compile
 	java -cp build/classes Welcome
